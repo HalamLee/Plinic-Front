@@ -6,6 +6,7 @@ import {
   Login,
   Search,
   CE,
+  Resign,
   TestGenreBtn,
   TestTextBtn,
   TestTextIconBtn,
@@ -36,6 +37,7 @@ function App() {
           <Route path="/login" element={<Layout page={<Login />} />} />
           <Route path="/search" element={<Layout page={<Search />} />} />
           <Route path="/CE" element={<Layout page={<CE />} />} />
+          <Route path="/CE/resign" element={<Layout page={<Resign />} />} />
           <Route path="/CE/genre-button" element={<Layout page={<TestGenreBtn />} />} />
           <Route path="/CE/text-button" element={<Layout page={<TestTextBtn />} />} />
           <Route path="/CE/text-icon-button" element={<Layout page={<TestTextIconBtn />} />} />

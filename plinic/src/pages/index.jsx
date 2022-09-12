@@ -3,6 +3,7 @@ import Login from './login/Login';
 import Search from './search/Search';
 import {
   CE,
+  Resign,
   TestGenreBtn,
   TestTextBtn,
   TestTextIconBtn,
@@ -29,6 +30,7 @@ export {
   Login,
   Search,
   CE,
+  Resign,
   TestGenreBtn,
   TestTextBtn,
   TestTextIconBtn,
